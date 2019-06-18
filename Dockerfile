@@ -15,6 +15,7 @@ RUN apt-get update && apt-get install -y \
         libzip-dev \
         libc-client-dev \
         libkrb5-dev \
+        libpq-dev \
         wget
 
 RUN rm -r /var/lib/apt/lists/*
