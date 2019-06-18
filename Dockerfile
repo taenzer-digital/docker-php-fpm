@@ -5,18 +5,18 @@ LABEL maintainer="Lars Hörseljau <l.hoerseljau@taenzer.me>"
 ENV COMPOSER_VERSION 1.8.6
 
 RUN apt-get update && apt-get install -y \
-        libfreetype6-dev \
-        libjpeg62-turbo-dev \
-        libmcrypt-dev \
-        libpng-dev \
-        libxml2-dev \
-        git \
-        unzip \
-        libzip-dev \
-        libc-client-dev \
-        libkrb5-dev \
-        libpq-dev \
-        wget
+    libfreetype6-dev \
+    libjpeg62-turbo-dev \
+    libmcrypt-dev \
+    libpng-dev \
+    libxml2-dev \
+    git \
+    unzip \
+    libzip-dev \
+    libc-client-dev \
+    libkrb5-dev \
+    libpq-dev \
+    wget
 
 RUN rm -r /var/lib/apt/lists/*
 
